@@ -1,8 +1,15 @@
-html, body {
-    height: 100%;
-    width: 100%;
+html, bodey {
+    height: 10000px;
 }
 
 #landing-header {
-    font-family: 'ReservaSans';
+    display: block;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    top: 2em;
 }
+    #landing-header img {
+        width: 10%;
+        max-width: 8em;
+    }
