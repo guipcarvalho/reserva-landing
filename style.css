@@ -1,9 +1,9 @@
-html, bodey {
+html, body {
     height: 10000px;
 }
 
 #landing-header {
-    display: block;
+    display: none;
     width: 100%;
     text-align: center;
     position: fixed;
@@ -13,3 +13,93 @@ html, bodey {
         width: 10%;
         max-width: 8em;
     }
+
+.page-center {
+    text-align: center;
+}
+
+.uppercase-text {
+    text-transform: uppercase;
+}
+
+.page h1, .page h2, .page h3, .page h4, .page h5, .page strong {
+    font-weight: normal;
+    margin: 0;
+}
+
+.second-page h2 {
+    font-family: 'ReservaSerifMedium';
+    font-size: 4.5em;
+    margin: 0.3em;
+}
+
+.second-page p {
+    font-family: 'ReservaSans';
+    font-size: 0.93em;
+}
+    .second-page p strong{
+        font-family: 'ReservaSansBold';
+    }
+
+.third-page h3, .fifth-page h3, .sixth-page h3, .seventh-page h3, .eighth-page h3{
+    font-size: 1.8em;
+    font-family: 'ReservaSansBlack';
+    margin: 0.2em;
+}
+
+.third-page p {
+    font-family: 'ReservaSansBold';
+    font-size: 1.2em;
+}
+
+.fourth-page p, .fifth-page p, .sixth-page p, .seventh-page p, .eighth-page p{
+    font-family: 'ReservaSans';
+    font-size: 1.2em;
+}
+
+.seventh-page p strong, .eighth-page p strong {
+    font-family: 'ReservaSansMedium';
+}
+
+p.landing-slogan {
+    font-family: 'ReservaSansBold';
+    font-size: 5em;
+    margin: 0.3em;
+    line-height: 1em;
+}
+
+.thirteenth-page h2 {
+    font-family: 'ReservaSansBold';
+    line-height: 1.5em;
+    font-size: 1.6em;
+}
+
+.thirteenth-page p, .fourteenth-page p {
+    font-family: 'ReservaSans';
+    font-size: 0.9em;
+}
+
+.thirteenth-page small {
+    font-family: 'ReservaSansThin';
+    font-size: 0.8em;
+    color: #6D6E71;
+}
+
+.thirteenth-page h3 {
+    font-family: 'ReservaSansBold';
+    line-height: 1.5em;
+    font-size: 1em;
+    color: #B81920;
+}
+
+.fourteenth-page h1 {
+    font-family: 'ReservaSerifMedium';
+    font-size: 4.1em;
+    margin: 0.3em;    
+}
+
+.fourteenth-page h4 {
+    font-family: 'ReservaSansBold';
+    font-size: 1.1em;
+    margin: 0.3em;
+}
