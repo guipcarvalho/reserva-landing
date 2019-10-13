@@ -61,7 +61,7 @@ html, body, p {
 .second-page h2 {
     font-family: 'ReservaSerifMedium';
     font-size: 4.5em;
-    padding: 0.3em;
+    padding-bottom: 0.3em;
     
 }
 
@@ -75,7 +75,7 @@ html, body, p {
 
 .second-page .text {
     opacity: 0;
-    transform: translateY(30%);
+    transform: translateY(50%);
     transition: all 1s;
 }
 
@@ -141,6 +141,11 @@ p.landing-slogan {
     padding: 0.3em;
     line-height: 1em;
     color: white;
+}
+
+.thirteenth-page .landing-page-content {
+    width:80%;
+    margin: 0 auto;
 }
 
 .thirteenth-page h2 {
