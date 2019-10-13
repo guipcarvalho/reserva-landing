@@ -32,6 +32,8 @@ html, body, p {
     top: 0;
     left: 0;
     box-sizing: border-box;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .page > .landing-page-content {
@@ -76,7 +78,7 @@ html, body, p {
 }
 
 .third-page {
-    background: url(img/orange.jpg) center no-repeat;
+    background-image: url(img/orange.jpg);
     color: white;
 }
 
@@ -96,8 +98,39 @@ html, body, p {
     font-size: 1.2em;
 }
 
-.seventh-page p strong, .eighth-page p strong {
-    font-family: 'ReservaSansMedium';
+.fifth-page {
+    background-image: url(img/woman_looking_down.jpg);
+}
+
+.sixth-page {
+    background-image: url(img/men_smiling.jpg);
+}
+
+.seventh-page {
+    background-image: url(img/woman_smiling.jpg);
+}
+    .seventh-page p strong, .eighth-page p strong {
+        font-family: 'ReservaSansMedium';
+    }
+
+.eighth-page {
+    background-image: url(img/woman_food.jpg);
+}
+
+.nineth-page {
+    background-image: url(img/mom_kids.jpg);
+}
+
+.tenth-page {
+    background-image: url(img/team.jpg);
+}
+
+.eleventh-page {
+    background-image: url(img/kids.jpg);
+}
+
+.twelfth-page {
+    background-image: url(img/kids_learning.jpg);
 }
 
 p.landing-slogan {
@@ -105,6 +138,7 @@ p.landing-slogan {
     font-size: 5em;
     padding: 0.3em;
     line-height: 1em;
+    color: white;
 }
 
 .thirteenth-page h2 {
@@ -131,6 +165,10 @@ p.landing-slogan {
     color: #B81920;
 }
 
+.fourteenth-page {
+    background-image: url('img/kid_smiling.jpg');
+}
+
 .fourteenth-page h1 {
     font-family: 'ReservaSerifMedium';
     font-size: 4.1em;
@@ -141,6 +179,18 @@ p.landing-slogan {
     font-family: 'ReservaSansBold';
     font-size: 1.1em;
     padding: 0.3em;
+}
+
+.fifteenth-page .heading {
+    font-family: 'ReservaSansBold';
+    font-size: 1.6em;
+    padding-bottom: 3em;
+    display: block;
+}
+
+.fifteenth-page .links {
+    font-family: 'ReservaSansBold';
+    font-size: 1.5em;
 }
 
 .appear {
