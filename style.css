@@ -1,13 +1,14 @@
-html, body {
-    height: 10000px;
+html, body, p {
+    margin: 0px;
 }
 
 #landing-header {
-    display: none;
+    display: block;
     width: 100%;
     text-align: center;
     position: fixed;
-    top: 2em;
+    z-index:10;
+    top: 1em;
 }
     #landing-header img {
         width: 10%;
@@ -22,15 +23,42 @@ html, body {
     text-transform: uppercase;
 }
 
+.page {
+    height: 800px;
+    z-index:5;
+    background: #fff;
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+}
+
+.page > .landing-page-content {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 .page h1, .page h2, .page h3, .page h4, .page h5, .page strong {
     font-weight: normal;
     margin: 0;
 }
 
+.first-page {
+    position: fixed;
+    width: 100%;
+    background: #6D6E71;
+    z-index:0;
+    top: 0;
+    left: 0;
+}
+
 .second-page h2 {
     font-family: 'ReservaSerifMedium';
     font-size: 4.5em;
-    margin: 0.3em;
+    padding: 0.3em;
+    
 }
 
 .second-page p {
@@ -44,7 +72,7 @@ html, body {
 .third-page h3, .fifth-page h3, .sixth-page h3, .seventh-page h3, .eighth-page h3{
     font-size: 1.8em;
     font-family: 'ReservaSansBlack';
-    margin: 0.2em;
+    padding: 0.2em;
 }
 
 .third-page p {
@@ -64,7 +92,7 @@ html, body {
 p.landing-slogan {
     font-family: 'ReservaSansBold';
     font-size: 5em;
-    margin: 0.3em;
+    padding: 0.3em;
     line-height: 1em;
 }
 
@@ -95,11 +123,11 @@ p.landing-slogan {
 .fourteenth-page h1 {
     font-family: 'ReservaSerifMedium';
     font-size: 4.1em;
-    margin: 0.3em;    
+    padding: 0.3em;    
 }
 
 .fourteenth-page h4 {
     font-family: 'ReservaSansBold';
     font-size: 1.1em;
-    margin: 0.3em;
+    padding: 0.3em;
 }
