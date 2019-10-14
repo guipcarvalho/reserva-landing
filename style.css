@@ -228,3 +228,7 @@ p.landing-slogan {
     z-index: 7;
     left: 100%;
 }
+
+.horizontal .landing-page-content {
+    left:15%;
+}
