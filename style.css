@@ -56,6 +56,7 @@ html, body, p {
     z-index:0;
     top: 0;
     left: 0;
+    background-image:url('img/video_placeholder.gif') ;
 }
 
 .second-page h2 {
@@ -137,32 +138,48 @@ html, body, p {
 
 p.landing-slogan {
     font-family: 'ReservaSansBold';
-    font-size: 5em;
-    padding: 0.3em;
-    line-height: 1em;
+    font-size: 14vh;
+    line-height: 16vh;
     color: white;
 }
 
 .thirteenth-page .landing-page-content {
     width:80%;
     margin: 0 auto;
+    text-align: center;
+    height: 70vh;
+    background: url('img/brasil.svg') no-repeat 80%;
 }
+    .thirteenth-page .landing-page-content .content, .thirteenth-page .landing-page-content .brasil{
+        display: inline-block;
+        text-align: left;
+    }
 
-.thirteenth-page h2 {
+    .thirteenth-page .landing-page-content .content{
+        width: 48%;
+        height: 70vh;
+        position: relative;
+    }
+
+.thirteenth-page .heading {
     font-family: 'ReservaSansBold';
-    line-height: 1.5em;
-    font-size: 1.6em;
+    line-height: 1.6em;
+    font-size: 2.8vh;
+    display: block;
+    padding-top: 6vh;
 }
 
-.thirteenth-page p, .fourteenth-page p {
+.thirteenth-page .text, .fourteenth-page .text {
     font-family: 'ReservaSans';
-    font-size: 0.9em;
+    font-size: 1.9vh;
+    display: block;
 }
 
-.thirteenth-page small {
+.thirteenth-page .bib {
     font-family: 'ReservaSansThin';
-    font-size: 0.8em;
+    font-size: 0.8vh;
     color: #6D6E71;
+    display: block;
 }
 
 .thirteenth-page h3 {
@@ -203,4 +220,11 @@ p.landing-slogan {
 .appear {
     transform: translateY(0) !important;
     opacity: 1 !important;
+}
+
+.horizontal {
+    position: fixed;
+    display: block;
+    z-index: 7;
+    left: 100%;
 }
