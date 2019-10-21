@@ -156,29 +156,29 @@ p.landing-slogan {
 }
 
 .thirteenth-page .landing-page-content {
-    width:80%;
+    display: flex;
     margin: 0 auto;
-    text-align: center;
+    text-align: left;
+    justify-content: center;
     height: 70vh;
-    background: url('img/brasil.svg') no-repeat 80%;
+    height: calc(var(--vh, 1vh) * 70);
+    padding: 20px;
 }
-    .thirteenth-page .landing-page-content .content, .thirteenth-page .landing-page-content .brasil{
-        display: inline-block;
-        text-align: left;
-    }
 
     .thirteenth-page .landing-page-content .content{
-        width: 48%;
         height: 70vh;
+        height: calc(var(--vh, 1vh) * 70);
         position: relative;
+        left: 40px;
     }
 
 .thirteenth-page .heading {
     font-family: 'ReservaSansBold';
     line-height: 1.6em;
-    font-size: 2.8vh;
+    font-size: 18px;
     display: block;
-    padding-top: 6vh;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .thirteenth-page .text, .fourteenth-page .text {
@@ -192,13 +192,50 @@ p.landing-slogan {
     font-size: 0.8vh;
     color: #6D6E71;
     display: block;
+    padding-top: 8px;
+    padding-bottom: 30px;
 }
 
-.thirteenth-page h3 {
+.thirteenth-page .high-text {
     font-family: 'ReservaSansBold';
     line-height: 1.5em;
-    font-size: 1em;
+    font-size: 9px;
     color: #B81920;
+    text-align: left;
+    align-self: flex-end;
+    padding-bottom: 40px;
+    opacity: 0;
+}
+
+.brasil-container {
+    max-height: 345px;
+    min-height: 345px;
+    max-width: 340px;
+    min-width: 340px;
+    position: relative;
+    left: -30px;
+}
+
+.brasil, .brasil-full {
+    background: url('img/brasil.svg') no-repeat bottom;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    justify-content: flex-end;
+}
+
+.brasil-full {
+    background: url('img/brasil_full.svg') no-repeat bottom;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.encher {
+    opacity: 1;
 }
 
 .fourteenth-page {
@@ -275,6 +312,29 @@ p.landing-slogan {
 }
 
 .page-fadein-placeholder {
-    height: 50vh;
-    height: calc(var(--vh, 1vh) * 50);{
+    height: 75vh;
+    height: calc(var(--vh, 1vh) * 75);
+}
+
+.rectangle {
+    width: 30%;
+    height: 20vh;
+    height: calc(var(--vh, 1vh) * 20);
+    position: absolute;
+    margin: auto;
+    background-color: #E6E7E8;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all 0.5s;
+    opacity: 0;
+}
+
+.top-rect {
+    transform: translate(-50%, -15vh);
+    opacity: 1;
+}
+
+.bottom-rect {
+    transform: translate(-50%, 15vh);
+    opacity: 1;
 }
