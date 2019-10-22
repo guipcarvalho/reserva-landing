@@ -84,13 +84,14 @@ body {
 
 .second-page h2 {
     font-family: 'ReservaSerifMedium';
-    font-size: 4.5em;
+    font-size: 3.5em;
     padding-bottom: 0.3em;
 }
 
 .second-page p {
     font-family: 'ReservaSans';
     font-size: 0.93em;
+    line-height: 1.8em;
 }
     .second-page p strong{
         font-family: 'ReservaSansBold';
