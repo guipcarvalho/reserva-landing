@@ -11,6 +11,7 @@ html, body, p {
 body {
     overflow: hidden;
     overflow-y: auto;
+    font-size: calc(1em + 1vw);
 }
 
 #loading-placeholder {
@@ -101,19 +102,27 @@ body {
 }
 
 .third-page h3, .fifth-page h3, .sixth-page h3, .seventh-page h3, .eighth-page h3{
-    font-size: 1.8em;
+    font-size: 1.4em;
     font-family: 'ReservaSansBlack';
-    padding: 0.2em;
+    padding-bottom: 0.8em;
 }
 
 .third-page p {
-    font-family: 'ReservaSansBold';
-    font-size: 1.2em;
+    font-family: 'ReservaSans';
+    font-size: 1em;
+    line-height: 1.5em;
 }
 
-.fourth-page p, .fifth-page p, .sixth-page p, .seventh-page p, .eighth-page p{
+.fourth-page p {
+    font-size: 1em;
+    line-height: 1.8em;
     font-family: 'ReservaSans';
-    font-size: 1.2em;
+}
+
+.fifth-page p, .sixth-page p, .seventh-page p, .eighth-page p{
+    font-family: 'ReservaSans';
+    font-size: 0.9em;
+    line-height: 1.8em;
 }
 
 .fifth-page {
