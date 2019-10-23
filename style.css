@@ -253,6 +253,30 @@ p.landing-slogan {
     transition: opacity 0.5s;
 }
 
+@media only screen and (max-width: 800px) {
+    .thirteenth-page .landing-page-content, .brasil-container, .thirteenth-page .landing-page-content .content {
+        display: block;
+    }
+
+    .thirteenth-page .landing-page-content .content {
+        left: 0;
+        height: fit-content;
+    }
+
+    .brasil-container {
+        min-width: 100%; 
+        min-height: fit-content;
+        height: 70vh;
+    }
+
+    .thirteenth-page {
+        max-height: 200vh;
+        max-height: calc(var(--vh, 1vh) * 200);
+        height: 200vh;
+        height: calc(var(--vh, 1vh) * 200);
+    }
+}
+
 .encher {
     opacity: 1;
 }
@@ -291,15 +315,23 @@ p.landing-slogan {
     display: block;
 }
 
-.horizontal {
-    position: fixed;
-    display: block;
-    z-index: 7;
-    left: 100%;
+@media only screen and (min-width: 1000px) {
+    .horizontal {
+        position: fixed;
+        display: block;
+        z-index: 7;
+        left: 100%;
+    }
+
+    .horizontal .landing-page-content {
+        left:15%;
+    }
 }
 
-.horizontal .landing-page-content {
-    left:15%;
+@media only screen and (max-width: 999px) {
+ .horizontal-placeholder {
+     display: none;
+ }
 }
 
 .twelfth-page .landing-page-content , .fourteenth-page .landing-page-content{
@@ -356,4 +388,8 @@ p.landing-slogan {
 .bottom-rect {
     transform: translate(-50%, 15vh);
     opacity: 1;
+}
+
+.video-page {
+    padding-top: 59px;
 }
