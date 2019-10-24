@@ -315,7 +315,7 @@ p.landing-slogan {
     display: block;
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 600px) {
     .horizontal {
         position: fixed;
         display: block;
@@ -328,7 +328,7 @@ p.landing-slogan {
     }
 }
 
-@media only screen and (max-width: 999px) {
+@media only screen and (max-width: 599px) {
  .horizontal-placeholder {
      display: none;
  }
