@@ -393,3 +393,8 @@ p.landing-slogan {
 .video-page {
     padding-top: 59px;
 }
+
+.fifteenth-page a, .fifteenth-page a:active, .fifteenth-page a:hover {
+    text-decoration: none;
+    color: black;
+}
