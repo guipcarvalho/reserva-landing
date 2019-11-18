@@ -8,10 +8,11 @@ html, body, p {
     width: 100%;
 }
 
-body {
+#reserva-landing-container {
+    font-size: calc(1em + 1vw);
     overflow: hidden;
     overflow-y: auto;
-    font-size: calc(1em + 1vw);
+    width: 100%;
 }
 
 #header-placeholder {
@@ -397,4 +398,17 @@ p.landing-slogan {
 .fifteenth-page a, .fifteenth-page a:active, .fifteenth-page a:hover {
     text-decoration: none;
     color: black;
+}
+
+.horizontal, .horizontal-placeholder {
+    height: calc((var(--vh, 1vh) * 100) - 40px);
+}
+
+.horizontal {
+    position: fixed;
+    top: 40px;
+}
+
+.horizontal2 {
+    height: calc((var(--vh, 1vh) * 100));
 }
