@@ -401,7 +401,7 @@ p.landing-slogan {
 
 .horizontal, .horizontal-placeholder {
     height: calc((var(--vh, 1vh) * 100) - 40px);
-    background: transparent !important;
+    background-color: transparent !important;
 }
 
 .horizontal {
