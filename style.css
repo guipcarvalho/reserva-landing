@@ -334,7 +334,7 @@ p.landing-slogan {
  }
 }
 
-.twelfth-page .landing-page-content , .fourteenth-page .landing-page-content{
+.fourteenth-page .landing-page-content{
     transform: translateY(-30%);
 }
 
@@ -391,7 +391,7 @@ p.landing-slogan {
 }
 
 .video-page {
-    padding-top: 59px;
+    margin-top: 59px;
 }
 
 .fifteenth-page a, .fifteenth-page a:active, .fifteenth-page a:hover {
@@ -400,7 +400,7 @@ p.landing-slogan {
 }
 
 .horizontal, .horizontal-placeholder {
-    height: calc((var(--vh, 1vh) * 100) - 40px);
+    height: calc((var(--vh, 1vh) * 100));
     background-color: transparent !important;
 }
 
