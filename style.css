@@ -321,6 +321,7 @@ p.landing-slogan {
         display: block;
         z-index: 7;
         left: 100%;
+        top: 40px;
     }
 
     .horizontal .landing-page-content {
@@ -402,11 +403,6 @@ p.landing-slogan {
 .horizontal, .horizontal-placeholder {
     height: calc((var(--vh, 1vh) * 100));
     background-color: transparent !important;
-}
-
-.horizontal {
-    position: fixed;
-    top: 40px;
 }
 
 .horizontal2 {
